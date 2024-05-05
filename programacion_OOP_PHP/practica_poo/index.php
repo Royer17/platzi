@@ -6,7 +6,8 @@ use App\Author;
 use App\Post;
 use App\Category;
 
-$post = new Post("Este es un día especial", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", new Author("José"), new Category("Series y películas"));
+$post = new Post("Este es un día especial", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+new Author("Rodjer"), new Category("Series y películas"));
 
 ?>
 
